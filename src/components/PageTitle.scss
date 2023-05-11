@@ -3,6 +3,7 @@
 .page-title {
   @include b.FlexColCenter;
   align-items: flex-end;
+  color: b.$morange;
   &__title {
     font-weight: normal;
   }
