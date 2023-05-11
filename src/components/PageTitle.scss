@@ -1,0 +1,12 @@
+@use "../style/base" as b;
+
+.page-title {
+  @include b.FlexColCenter;
+  align-items: flex-end;
+  &__title {
+    font-weight: normal;
+  }
+  &__desc {
+    font-weight: normal;
+  }
+}

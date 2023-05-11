@@ -1,3 +1,12 @@
+import { PageTitle } from "./PageTitle";
+
 export const About = () => {
-  return <>About is working</>;
+  return (
+    <>
+      <PageTitle
+        title="MAX KARLSSON"
+        desc="Front End Developer student"
+      ></PageTitle>
+    </>
+  );
 };
