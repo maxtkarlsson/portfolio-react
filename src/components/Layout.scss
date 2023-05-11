@@ -3,12 +3,25 @@
 
 body {
   font-family: "Montserrat";
+  background-color: b.$mgrey;
 }
 
 .header-container {
   @include b.FlexColCenter;
+  background-color: b.$bkgblue;
 }
 
 .main-container {
   @include b.FlexColCenter;
+  &__left {
+    @include b.FlexColCenter;
+    width: 100vw;
+    &--middle {
+      @include b.FlexColCenter;
+      justify-content: flex-start;
+      padding-top: 30vh;
+      background-color: b.$bkgblue;
+      height: 100vh;
+    }
+  }
 }

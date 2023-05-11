@@ -2,12 +2,14 @@
 
 .page-title {
   @include b.FlexColCenter;
-  align-items: flex-end;
+  align-items: flex-start;
   color: b.$morange;
   &__title {
     font-weight: normal;
+    font-size: 3rem;
   }
   &__desc {
+    color: b.$mgrey;
     font-weight: normal;
   }
 }
