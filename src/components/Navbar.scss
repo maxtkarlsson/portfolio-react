@@ -1,0 +1,24 @@
+@use "../style/base" as b;
+
+a {
+  text-decoration: none;
+  color: b.$mgrey;
+}
+
+.navigation-container {
+  @include b.FlexColCenter;
+}
+
+.nav {
+  width: 100vw;
+  @include b.FlexRowCenter;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1rem;
+
+  &__item {
+    :hover {
+      color: b.$morange;
+    }
+  }
+}
