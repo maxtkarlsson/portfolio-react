@@ -1,3 +1,9 @@
+import { PageTitle } from "./PageTitle";
+
 export const Contact = () => {
-  return <>Contact is working</>;
+  return (
+    <>
+      <PageTitle title="Contact" desc=""></PageTitle>
+    </>
+  );
 };
