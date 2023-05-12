@@ -24,4 +24,8 @@ body {
       height: 100vh;
     }
   }
+  &__right {
+    @include b.FlexColCenter;
+    width: 100vw;
+  }
 }
