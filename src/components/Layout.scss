@@ -13,6 +13,7 @@ body {
 
 .main-container {
   @include b.FlexColCenter;
+
   &__left {
     @include b.FlexColCenter;
     width: 100vw;
@@ -22,6 +23,7 @@ body {
       padding-top: 30vh;
       background-color: b.$bkgblue;
       height: 100vh;
+      width: 100vw;
     }
   }
   &__right {

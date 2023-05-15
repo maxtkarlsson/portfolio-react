@@ -2,4 +2,12 @@
 
 .about-text {
   color: b.$mgrey;
+  margin-top: 2.5rem;
+}
+
+.about-container {
+  @include b.FlexColCenter;
+  align-items: flex-start;
+  padding-right: 10%;
+  padding-left: 10%;
 }

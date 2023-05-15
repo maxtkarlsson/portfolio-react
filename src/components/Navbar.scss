@@ -7,10 +7,11 @@ a {
 
 .navigation-container {
   @include b.FlexColCenter;
+  width: 100%;
 }
 
 .nav {
-  width: 100vw;
+  width: 100%;
   @include b.FlexRowCenter;
   justify-content: space-evenly;
   list-style: none;
