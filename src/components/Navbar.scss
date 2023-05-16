@@ -8,6 +8,8 @@ a {
 .navigation-container {
   @include b.FlexColCenter;
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .nav {
@@ -21,6 +23,7 @@ a {
   &__item {
     :hover {
       color: b.$morange;
+      cursor: pointer;
     }
   }
 }
