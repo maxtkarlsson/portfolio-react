@@ -1,10 +1,5 @@
 @use "../style/base" as b;
 
-a {
-  text-decoration: none;
-  color: b.$mgrey;
-}
-
 .navigation-container {
   @include b.FlexColCenter;
   width: 100%;
@@ -13,6 +8,11 @@ a {
 }
 
 .nav {
+  a {
+    text-decoration: none;
+    color: b.$mgrey;
+  }
+
   width: 100%;
   @include b.FlexRowCenter;
   justify-content: space-evenly;
