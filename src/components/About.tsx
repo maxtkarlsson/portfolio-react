@@ -14,6 +14,11 @@ export const About = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.
         </p>
+        <p className="about-text--alert">
+          * This site is a work in progress. I add new features, use new
+          techniques and update content as I develop my skills during my
+          studies.
+        </p>
       </div>
     </div>
   );
