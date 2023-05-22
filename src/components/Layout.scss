@@ -16,7 +16,7 @@ body {
 
   &__left {
     @include b.FlexColCenter;
-    width: 100vw;
+    //width: 100vw;
     &--middle {
       @include b.FlexColCenter;
       justify-content: flex-start;
@@ -28,6 +28,6 @@ body {
   }
   &__right {
     @include b.FlexColCenter;
-    width: 100vw;
+    //width: 100vw;
   }
 }
