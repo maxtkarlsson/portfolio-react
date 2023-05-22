@@ -1,0 +1,9 @@
+@use "../style/base" as b;
+
+.project {
+  @include b.FlexColCenter;
+  background-color: aqua;
+  &__image {
+    max-width: 100%;
+  }
+}

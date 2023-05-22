@@ -1,0 +1,8 @@
+@use "../style/base" as b;
+
+.projects-container {
+  width: 100vw;
+  @include b.FlexColCenter;
+
+  background-color: red;
+}
