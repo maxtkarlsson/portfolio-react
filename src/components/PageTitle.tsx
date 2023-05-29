@@ -1,4 +1,5 @@
 import "./PageTitle.scss";
+import { H2 } from "./styled/Headings";
 
 interface IPageTitleProps {
   title: string;
@@ -7,7 +8,7 @@ interface IPageTitleProps {
 export const PageTitle = ({ title }: IPageTitleProps) => {
   return (
     <div className="page-title">
-      <h1 className="page-title__title">{title}</h1>
+      <H2 className="page-title__title">{title}</H2>
     </div>
   );
 };
