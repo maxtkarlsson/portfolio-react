@@ -2,8 +2,23 @@
 
 .project {
   @include b.FlexColCenter;
+
+  width: 90%;
+  //max-width: 100%;
   background-color: aqua;
+  border: 1px solid black;
   &__image {
+    width: 100%;
+    height: auto;
+  }
+  &__desc {
     max-width: 100%;
   }
+}
+
+.project-image-container {
+  display: flex;
+
+  width: 450px;
+  background-color: blue;
 }

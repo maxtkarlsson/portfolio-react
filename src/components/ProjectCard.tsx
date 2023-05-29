@@ -8,7 +8,9 @@ interface IProjectCardProps {
 export const ProjectCard = (props: IProjectCardProps) => {
   return (
     <div className="project">
-      <img className="project__image" src={props.project.imgUrl} alt="" />
+      <div className="project-image-container">
+        <img className="project__image" src={props.project.imgUrl} alt="" />
+      </div>
       <h3 className="project__title">{props.project.title}</h3>
       <p className="project__desc">{props.project.desc}</p>
     </div>
