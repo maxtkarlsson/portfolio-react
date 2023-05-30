@@ -3,7 +3,7 @@
 .page-title {
   @include b.FlexColCenter;
   align-items: flex-start;
-  color: b.$morange;
+  //color: b.$morange;
   &__title {
     font-weight: normal;
   }

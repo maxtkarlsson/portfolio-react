@@ -3,7 +3,7 @@
 .frontpage-title {
   @include b.FlexColCenter;
   align-items: flex-start;
-  color: b.$morange;
+  //color: b.$morange;
   &__name {
     font-weight: normal;
     font-size: 3rem;
