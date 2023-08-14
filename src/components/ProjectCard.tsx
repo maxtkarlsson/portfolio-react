@@ -1,5 +1,8 @@
 import { Project } from "../models/Project";
 import "./ProjectCard.scss";
+import { H4 } from "./styled/Headings";
+import { StyledP } from "./styled/StyledP";
+import { ImageWrapper } from "./styled/Wrappers";
 
 interface IProjectCardProps {
   project: Project;
@@ -7,12 +10,12 @@ interface IProjectCardProps {
 
 export const ProjectCard = (props: IProjectCardProps) => {
   return (
-    <div className="project">
-      <div className="project-image-container">
+    <>
+      <ImageWrapper>
         <img className="project__image" src={props.project.imgUrl} alt="" />
-      </div>
-      <h3 className="project__title">{props.project.title}</h3>
-      <p className="project__desc">{props.project.desc}</p>
-    </div>
+      </ImageWrapper>
+      <H4>{props.project.title}</H4>
+      <StyledP>{props.project.desc}</StyledP>
+    </>
   );
 };

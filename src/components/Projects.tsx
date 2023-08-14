@@ -4,6 +4,7 @@ import { PageTitle } from "./PageTitle";
 import { ProjectCard } from "./ProjectCard";
 import "./Projects.scss";
 import { projectList } from "../data/projects";
+import { ProjectWrapper } from "./styled/Wrappers";
 
 export const Projects = () => {
   const [projects, setProjects] = useState<Project[]>(projectList);
@@ -11,7 +12,11 @@ export const Projects = () => {
   console.log(projects);
 
   const HtmlProject = projects.map((p) => {
-    return <ProjectCard project={p}></ProjectCard>;
+    return (
+      <ProjectWrapper>
+        <ProjectCard project={p}></ProjectCard>
+      </ProjectWrapper>
+    );
   });
 
   return (
