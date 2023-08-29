@@ -1,3 +1,3 @@
 import styled from "styled-components";
 
-export const StyledP = styled.p``;
+export const NavList = styled.ul``;

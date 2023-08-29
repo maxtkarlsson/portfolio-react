@@ -1,17 +1,19 @@
 //import { Link } from "react-router-dom";
-import "./Navbar.scss";
+
+import { NavListItem } from "./styled/nav/NavListItem";
 
 export const Navbar = () => {
   return (
-    <nav className="navigation-container">
-      <ul className="nav">
-        <li className="nav__item">
+    <nav>
+      <ul>
+        <NavListItem>
           <a>About me</a>
-        </li>
-        <li className="nav__item">
+        </NavListItem>
+
+        <li>
           <a>Projects</a>
         </li>
-        <li className="nav__item">
+        <li>
           <a>Contact</a>
         </li>
       </ul>

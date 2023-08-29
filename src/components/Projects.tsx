@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Project } from "../models/Project";
 import { PageTitle } from "./PageTitle";
 import { ProjectCard } from "./ProjectCard";
-import "./Projects.scss";
+
 import { projectList } from "../data/projects";
 import { ProjectWrapper } from "./styled/Wrappers";
 
@@ -20,11 +20,11 @@ export const Projects = () => {
   });
 
   return (
-    <div className="projects-container">
-      <div className="main-container__left">
+    <div>
+      <div>
         <PageTitle title="Projects"></PageTitle>
       </div>
-      <div className="main-container__right">{HtmlProject}</div>
+      <div>{HtmlProject}</div>
     </div>
   );
 };
