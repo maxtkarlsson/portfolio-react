@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   //flex-wrap: wrap;
+  // skicka in size % och färg som props.
 `;
 
 export const ProjectWrapper = styled.div`

@@ -15,7 +15,7 @@ html {
 
 body {
   font-family: "Montserrat";
-  background-color:  #f5efed;
+  background-color: #f5efed;
 }
 
 main {
