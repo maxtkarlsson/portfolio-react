@@ -18,7 +18,26 @@ body {
   background-color: #f5efed;
 }
 
+header {
+  background-color: green;
+  display: flex;
+  width: 100%;
+}
+
 main {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+
+}
+
+footer {
+  background-color: black;
+  display: flex;
   width: 100%;
 }
 `;
