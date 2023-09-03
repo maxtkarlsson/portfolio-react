@@ -4,7 +4,6 @@ import { PageTitle } from "./PageTitle";
 import { ProjectCard } from "./ProjectCard";
 
 import { projectList } from "../data/projects";
-import { ProjectWrapper } from "./styled/Wrappers";
 
 export const Projects = () => {
   const [projects, setProjects] = useState<Project[]>(projectList);

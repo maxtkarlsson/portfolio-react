@@ -1,21 +1,17 @@
-import { Navbar } from "./Navbar";
-
-import { About } from "./About";
-import { Projects } from "./Projects";
-import { Contact } from "./Contact";
+import { Content, Sidebar, PageWrapper } from "./styled/Wrappers";
 
 export const Layout = () => {
   return (
     <>
-      <header>
-        <Navbar></Navbar>
-      </header>
+      <header>header</header>
       <main>
-        <About></About>
-        <Projects></Projects>
-        <Contact></Contact>
+        main
+        <PageWrapper>
+          <Sidebar>Sidebar</Sidebar>
+          <Content>Content</Content>
+        </PageWrapper>
       </main>
-      <footer></footer>
+      <footer>footer</footer>
     </>
   );
 };
