@@ -22,6 +22,11 @@ header {
   background-color: green;
   display: flex;
   width: 100%;
+  
+  @media screen and (min-width: 768px) {
+    position: fixed;
+    
+  }
 }
 
 main {
@@ -31,7 +36,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 10px;
+  font-size:2rem;
 
 }
 
