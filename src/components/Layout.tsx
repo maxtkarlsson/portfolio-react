@@ -1,9 +1,19 @@
-import { Content, Sidebar, PageWrapper } from "./styled/Wrappers";
+import {
+  Content,
+  Sidebar,
+  PageWrapper,
+  TempNav,
+  HeaderWrapper,
+} from "./styled/Wrappers";
 
 export const Layout = () => {
   return (
     <>
-      <header>header</header>
+      <header>
+        <HeaderWrapper>
+          <TempNav></TempNav>
+        </HeaderWrapper>
+      </header>
       <main>
         main
         <PageWrapper>
